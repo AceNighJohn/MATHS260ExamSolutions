@@ -661,12 +661,31 @@ $$
 for which has eigenvalues -1 and -2, thus (0, 2) is a nodal sink.
 \item
 The $x$-nullclines are $x=0$ and $x=2$. \\
-The $y$-nullcline is $y = 2-x$.
+The $y$-nullcline is $y = 2-x$. \\
+$\dot{x}>0$ when 
+\[ \begin{cases} 
+x > 0 \\
+2-x>0
+\end{cases}
+\]
+or 
+\[ \begin{cases} 
+x < 0 \\
+2-x < 0
+\end{cases}.
+\]
+After simplification, $\dot{x}>0$ when $0<x<2$. \\
+$\dot{y}>0$ when $2-x-y>0 \longrightarrow y <2-x$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.7]{q7b.PNG}
+\end{figure}
 \item
 Remember that your phase portrait doesn't have to look perfect.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale = 0.7]{q7.PNG}
+    \includegraphics[scale = 0.7]{q7c.PNG}
 \end{figure}
 \item
 \begin{enumerate}
