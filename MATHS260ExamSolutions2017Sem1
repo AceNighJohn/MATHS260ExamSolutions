@@ -383,14 +383,14 @@ $\textbf{Solution: }$
     J(x,y) = 
     \begin{bmatrix}
         y+1 & x-1 \\
-        1 & =1
+        1 & -1
     \end{bmatrix}
     $$
     $$
     J(1,1) = 
     \begin{bmatrix}
         2 & 0 \\
-        1 & =1
+        1 & -1
     \end{bmatrix}
     $$
     for which has eigenvalues $\lambda = -1$ and $\lambda = 2$, thus (1,1) is a saddle.
@@ -398,7 +398,7 @@ $\textbf{Solution: }$
     J(1,1) = 
     \begin{bmatrix}
         0 & -2 \\
-        1 & =1
+        1 & -1
     \end{bmatrix}
     $$
     for which has eigenvalues $\lambda = \frac{-1\pm\sqrt{7}i}{2}$, thus (-1,-1) is a spiral sink.
@@ -439,6 +439,10 @@ $\textbf{Solution: }$
     x>y
     \end{cases}
     \]
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale = 0.7]{Q5b.PNG}
+    \end{figure}  
     \item
     Remember that your phase portrait doesn't have to look perfect.
     \begin{figure}[H]
@@ -446,11 +450,5 @@ $\textbf{Solution: }$
         \includegraphics[scale = 0.7]{Q5c.PNG}
     \end{figure}   
 \end{enumerate}
-
-
-
-
-
-
 \end{enumerate}
 \end{document}
