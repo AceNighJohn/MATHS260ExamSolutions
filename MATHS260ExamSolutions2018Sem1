@@ -394,7 +394,7 @@ $\textbf{Solution: }$
     J(0,0) = 
     \begin{bmatrix}
         0 & -2 \\
-        1 & =1
+        1 & -1
     \end{bmatrix}
     $$
     for which has eigenvalues $\lambda = \frac{-1 \pm \sqrt{7}i}{2}$, thus (0,0) is a spiral sink.
@@ -402,7 +402,7 @@ $\textbf{Solution: }$
     J(1,0) = 
     \begin{bmatrix}
         0 & -2 \\
-        -1 & =1
+        -1 & -1
     \end{bmatrix}
     $$
     for which has eigenvalues $\lambda = -2$ and $\lambda = 1$, thus (1,0) is a saddle.
